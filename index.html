@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+        Do fill this form, it will help  us to make this community more stronger!!
+      </p>
+      <fieldset>
+      <form id="survey-form">
+       
+          <label for="name" id="name-label" > Enter your name:  
+            <input type="text" id=name placeholder="enter your name" name="full name" required>
+          </label>
+
+          <label for="email" id="email-label"> Enter your email: <input type="email" id="email" placeholder="input your email" name="email id" required>        
+            </label>
+
+            <label for="number" id="number-label"> Enter your number: <input type="number" id="number" min="8" max="10" placeholder="enter number">
+            </label>
+
+            <label for="dropdown"> How was your experiance:
+            <select id="dropdown">
+              <option>select</option>
+              <option>Great</option>
+              <option>Average</option>
+              <option>Bad</option>
+            </select>
+            </label>
+
+            <label for="radio" >Will you use our service again? 
+              <input type=radio name="radio" value="radio" class="input-radio">Yess definetly :)
+              <input type=radio name="radio" value="radio" class="input-radio">No not sure :(
+                </label>
+
+                <label >Thnigs that needs upgradation in our service: 
+                  <input type="checkbox" value="checked" class="input-check" >Videos
+                  <input type="checkbox" value="checked" class="input-check" >Website interface
+                  <input type="checkbox" value="checked" class="input-check" >Audios
+                  </label><br>
+
+                  <label>Your comments: 
+                    <textarea name="comment" id="comment" cols="40" rows="5" placeholder="enter your comments!!"></textarea></label>
+
+           
+
+                <button type="submit" id="submit">Submit</button>
+      </form>
+       </fieldset>
+    </body>
+</html>
