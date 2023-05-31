@@ -46,7 +46,7 @@ h1, p{
     background-color:rgb(137, 84, 169);
   }
 
-#submit hover{
+#submit:hover{
     background-color: white;
 }
   
