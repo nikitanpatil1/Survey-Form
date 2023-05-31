@@ -45,6 +45,10 @@ h1, p{
     height:35px;
     background-color:rgb(137, 84, 169);
   }
+
+#submit hover{
+    background-color: white;
+}
   
   #name, #email, #number, #dropdown{
     width:100%;
